@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import {
 	Bar,
 	Calendar,
+	Consistency,
 	Contacts,
 	Dashboard,
 	Faq,
@@ -41,6 +42,7 @@ function App() {
 							<Route path="/faq" element={<Faq />} />
 							<Route path="/calendar" element={<Calendar />} />
 							<Route path="/geography" element={<Geography />} />
+							<Route path="/consistency" element={<Consistency />} />
 						</Routes>
 					</main>
 				</div>

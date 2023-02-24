@@ -9,6 +9,7 @@ import Invoices from "./invoices/Invoices.jsx";
 import Line from "./line/Line.jsx";
 import Pie from "./pie/Pie.jsx";
 import Team from "./team/Team.jsx";
+import Consistency from "./consistency/Consistency.jsx";
 
 export {
 	Bar,
@@ -22,4 +23,5 @@ export {
 	Line,
 	Pie,
 	Team,
+	Consistency
 };

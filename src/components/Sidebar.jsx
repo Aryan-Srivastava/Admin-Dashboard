@@ -15,6 +15,7 @@ import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import ClearOutlinedIcon from "@mui/icons-material/ClearOutlined";
+import CalendarViewMonthOutlinedIcon from "@mui/icons-material/CalendarViewMonthOutlined";
 import { Menu, MenuItem, ProSidebar } from "react-pro-sidebar";
 import PropTypes from "prop-types";
 import "react-pro-sidebar/dist/css/styles.css";
@@ -241,6 +242,13 @@ const Sidebar = () => {
 							title="Geography Chart"
 							to="/geography"
 							icon={<MapOutlinedIcon />}
+							selected={selected}
+							setSelected={setSelected}
+						/>
+						<Item
+							title="Consistency Chart"
+							to="/consistency"
+							icon={<CalendarViewMonthOutlinedIcon />}
 							selected={selected}
 							setSelected={setSelected}
 						/>

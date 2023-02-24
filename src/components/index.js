@@ -7,6 +7,7 @@ import ProgressCircle from "./ProgressCircle";
 import StatBox from "./StatBox";
 import Sidebar from "./Sidebar";
 import Topbar from "./Topbar";
+import ConsistencyChart from "./ConsistencyChart";
 
 export {
 	BarChart,
@@ -17,5 +18,6 @@ export {
 	ProgressCircle,
 	StatBox,
 	Sidebar,
-	Topbar
+	Topbar,
+	ConsistencyChart,
 };
