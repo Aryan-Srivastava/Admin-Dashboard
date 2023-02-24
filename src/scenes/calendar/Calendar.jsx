@@ -50,7 +50,7 @@ const Cal = () => {
 		<Box m="20px">
 			<Header
 				title="Calendar"
-				subtitle="Full Calendar Interactive Page"
+				subTitle="Full Calendar Interactive Page"
 			/>
 
 			{/* <Box display="flex" justifyContent="space-between">

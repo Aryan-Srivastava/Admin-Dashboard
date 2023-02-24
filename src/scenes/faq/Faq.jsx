@@ -10,7 +10,7 @@ const Faq = () => {
 	const theme = useTheme();
 	const colors = tokens(theme.palette.mode);
 	return (
-		<Box m="20px">
+		<Box ml="20px">
 			<Header title="FAQ" subTitle="Frequently Asked Questions" />
 			<Accordion defaultExpanded sx={{ backgroundColor: colors.primary[400], marginBottom: "5px", borderRadius:"2px" }}>
 				<AccordionSummary expandIcon={<ExpandMoreIcon />}>

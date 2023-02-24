@@ -19,7 +19,7 @@ const Dashboard = () => {
 	const theme = useTheme();
 	const colors = tokens(theme.palette.mode);
 	return (
-		<Box m="20px">
+		<Box ml="20px">
 			<Box
 				display="flex"
 				justifyContent="space-between"
@@ -195,7 +195,7 @@ const Dashboard = () => {
 						display="flex"
 						justifyContent="space-between"
 						alignItems="center"
-						borderBottom={`4px solid ${colors.primary[500]}`}
+						borderBottom={`4px solid ${colors.primary[900]}`}
 						color={colors.grey[100]}
 						p="15px"
 					>
@@ -213,7 +213,7 @@ const Dashboard = () => {
 							display="flex"
 							justifyContent="space-between"
 							alignItems="center"
-							borderBottom={`4px solid ${colors.primary[500]}`}
+							borderBottom={`3px solid ${colors.greenAccent[700]}`}
 							p="15px"
 						>
 							<Box>

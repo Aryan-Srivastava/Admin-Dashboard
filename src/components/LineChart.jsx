@@ -32,6 +32,11 @@ const LineChart = (isDashboard = false) => {
 						},
 					},
 				},
+				grid: {
+					line: {
+						strokeWidth: 0
+					}
+				},
 				legends: {
 					text: {
 						fill: colors.grey[100],
@@ -67,8 +72,8 @@ const LineChart = (isDashboard = false) => {
 				legendPosition: "middle",
 			}}
 			axisLeft={{
-        orient: "left",
-        tickValues: 5,
+				orient: "left",
+				tickValues: 5,
 				tickSize: 5,
 				tickPadding: 5,
 				tickRotation: 0,
